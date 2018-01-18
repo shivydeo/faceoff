@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "signup">
+
+	<verifySignupFunctionality>
+		<datasets>
+			<dataset>
+			</dataset>
+		</datasets>
+	</verifySignupFunctionality>
+
+	<test name="Signup">
+		<classes>
+			<class name="org.webonise.gofaceoff.java.Signup">
+				<methods>
+					<include name="verifySignupFunctionality" />
+				</methods>
+			</class>
+			
+		</classes>
+	</test>
+</suite>

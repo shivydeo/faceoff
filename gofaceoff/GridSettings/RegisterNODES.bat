@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-3.8.1-jar.jar -role node -nodeConfig nodeconfig.json -hub http://localhost:4444/grid/register 

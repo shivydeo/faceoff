@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [ChallengeAcceptance]">
+  <test name="AcceptChallenge(failed)">
+    <classes>
+      <class name="org.webonise.gofaceoff.java.AcceptChallenge">
+        <methods>
+          <include name="testEnd"/>
+          <include name="generateZIPFile"/>
+          <include name="acceptWorldChallenge" invocation-numbers="0"/>
+          <include name="testStart"/>
+        </methods>
+      </class> <!-- org.webonise.gofaceoff.java.AcceptChallenge -->
+    </classes>
+  </test> <!-- AcceptChallenge(failed) -->
+</suite> <!-- Failed suite [ChallengeAcceptance] -->

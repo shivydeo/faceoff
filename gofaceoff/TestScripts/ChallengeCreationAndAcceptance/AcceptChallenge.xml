@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ChallengeAcceptance">
+	
+	<acceptWorldChallenge>
+		<datasets>
+			<dataset>
+			</dataset>
+		</datasets>
+	</acceptWorldChallenge>
+	
+	<test name="AcceptChallenge">
+		<classes>
+			<class name="org.webonise.gofaceoff.java.AcceptChallenge">
+			<methods>
+				<include name="acceptWorldChallenge" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

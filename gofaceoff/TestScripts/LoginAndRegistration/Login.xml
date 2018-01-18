@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="login">
+	<validEmailLogin>
+		<datasets>
+			<dataset>
+			</dataset>
+		</datasets>
+	</validEmailLogin>
+	
+	<validUsernameLogin>
+		<datasets>
+			<dataset>
+			</dataset>
+		</datasets>
+	</validUsernameLogin>
+	
+	<blankLoginCredentials>
+		<datasets>
+			<dataset>
+			</dataset>
+		</datasets>
+	</blankLoginCredentials>
+	
+	<invalidLogin>
+		<datasets>
+			<dataset>
+			</dataset>
+		</datasets>
+	</invalidLogin>
+	
+	<isPasswordMasked>
+		<datasets>
+			<dataset>
+			</dataset>
+		</datasets>
+	</isPasswordMasked>
+	
+	<loginThenClickBackLink>
+		<datasets>
+			<dataset>
+			</dataset>
+		</datasets>
+	</loginThenClickBackLink>
+	
+	<test name="Login">
+		<classes>
+			<class name="org.webonise.gofaceoff.java.Login">
+				<methods>
+					<include name="validEmailLogin" />
+					<include name="validUsernameLogin" />
+					<include name="blankLoginCredentials" />
+					<include name="invalidLogin" />
+					<include name="isPasswordMasked" />
+					<include name="loginThenClickBackLink" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

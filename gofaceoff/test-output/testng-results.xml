@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TestCase Started]]>
+    </line>
+    <line>
+      <![CDATA[Launched browser with URL https://dev.gofaceoff.com/]]>
+    </line>
+    <line>
+      <![CDATA[Window maximized]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on XP (1c7aa4916e489986a2888ff33d9aaf60)] -> xpath: //ul[contains(@class,'homeLoginRight')]//li[1]//a]]]>
+    </line>
+    <line>
+      <![CDATA[Setting text "ian" on [[ChromeDriver: chrome on XP (1c7aa4916e489986a2888ff33d9aaf60)] -> xpath: //input[@id='login']]]]>
+    </line>
+    <line>
+      <![CDATA[Setting text "12345678" on [[ChromeDriver: chrome on XP (1c7aa4916e489986a2888ff33d9aaf60)] -> xpath: //input[@id='password']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Proxy element for: DefaultElementLocator 'By.xpath: //input[@class='loginButton']']]>
+    </line>
+    <line>
+      <![CDATA[Clicked on [[ChromeDriver: chrome on XP (1c7aa4916e489986a2888ff33d9aaf60)] -> xpath: //a[contains(text(),'My Challenges')]]]]>
+    </line>
+    <line>
+      <![CDATA[TestCase completed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-01-17T11:47:44Z" name="ChallengeCreation" finished-at="2018-01-17T11:48:25Z" duration-ms="40392">
+    <groups>
+    </groups>
+    <test started-at="2018-01-17T11:47:44Z" name="CreateChallenge" finished-at="2018-01-17T11:48:25Z" duration-ms="40392">
+      <class name="org.webonise.gofaceoff.java.CreateChallenge">
+        <test-method is-config="true" signature="testStart()[pri:0, instance:org.webonise.gofaceoff.java.CreateChallenge@76a4ebf2]" started-at="2018-01-17T17:17:44Z" name="testStart" finished-at="2018-01-17T17:17:55Z" duration-ms="10811" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method signature="challengeWorld(java.lang.Integer, java.lang.Boolean)[pri:0, instance:org.webonise.gofaceoff.java.CreateChallenge@76a4ebf2]" started-at="2018-01-17T17:17:55Z" name="challengeWorld" data-provider="xml" finished-at="2018-01-17T17:18:22Z" duration-ms="26433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launched browser with URL https://dev.gofaceoff.com/]]>
+            </line>
+            <line>
+              <![CDATA[Window maximized]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on XP (1c7aa4916e489986a2888ff33d9aaf60)] -> xpath: //ul[contains(@class,'homeLoginRight')]//li[1]//a]]]>
+            </line>
+            <line>
+              <![CDATA[Setting text "ian" on [[ChromeDriver: chrome on XP (1c7aa4916e489986a2888ff33d9aaf60)] -> xpath: //input[@id='login']]]]>
+            </line>
+            <line>
+              <![CDATA[Setting text "12345678" on [[ChromeDriver: chrome on XP (1c7aa4916e489986a2888ff33d9aaf60)] -> xpath: //input[@id='password']]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Proxy element for: DefaultElementLocator 'By.xpath: //input[@class='loginButton']']]>
+            </line>
+            <line>
+              <![CDATA[Clicked on [[ChromeDriver: chrome on XP (1c7aa4916e489986a2888ff33d9aaf60)] -> xpath: //a[contains(text(),'My Challenges')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- challengeWorld -->
+        <test-method is-config="true" signature="testEnd()[pri:0, instance:org.webonise.gofaceoff.java.CreateChallenge@76a4ebf2]" started-at="2018-01-17T17:18:22Z" name="testEnd" finished-at="2018-01-17T17:18:25Z" duration-ms="3057" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TestCase completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testEnd -->
+        <test-method is-config="true" signature="generateZIPFile()[pri:0, instance:org.webonise.gofaceoff.java.CreateChallenge@76a4ebf2]" started-at="2018-01-17T17:18:25Z" name="generateZIPFile" finished-at="2018-01-17T17:18:25Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateZIPFile -->
+      </class> <!-- org.webonise.gofaceoff.java.CreateChallenge -->
+    </test> <!-- CreateChallenge -->
+  </suite> <!-- ChallengeCreation -->
+</testng-results>

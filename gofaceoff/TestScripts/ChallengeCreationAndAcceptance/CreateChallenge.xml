@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name ="ChallengeCreation">
+
+	<challengeWorld>
+		<datasets>
+			<dataset>
+			</dataset>
+		</datasets>
+	</challengeWorld>
+	
+	<test name="CreateChallenge">
+		<classes>
+			<class name="org.webonise.gofaceoff.java.CreateChallenge">
+			<methods>
+				<include name="challengeWorld" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>

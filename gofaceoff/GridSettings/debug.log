@@ -1,0 +1,31 @@
+[0507/020318.388:ERROR:process_info.cc(343)] VirtualQueryEx: Access is denied. (0x5)
+[0507/020318.389:ERROR:process_info.cc(564)] ReadMemoryInfo failed
+[0507/020318.389:ERROR:process_reader_win.cc(233)] ReadMemory at 0x702d7dc8 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0507/020318.389:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[0507/020318.389:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0507/020318.389:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0507/044523.170:ERROR:process_info.cc(343)] VirtualQueryEx: Access is denied. (0x5)
+[0507/044523.171:ERROR:process_info.cc(564)] ReadMemoryInfo failed
+[0507/044523.174:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0507/044523.174:ERROR:exception_snapshot_win.cc(87)] thread ID 6716 not found in process
+[0507/044523.174:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
+[0507/044523.174:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0509/113025.986:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0509/113052.244:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
+[0710/172523.261:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir110416_11669\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0710/180625.002:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir109520_14340\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0711/153947.392:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir123988_2396\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0711/163959.649:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir129192_27144\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0713/132607.593:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir171900_1207\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0713/170516.068:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir180752_23739\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0713/183241.963:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir187324_3511\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0717/182232.193:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir17688_20343\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0718/122750.744:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir19556_3114\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0724/173203.414:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir15616_27904\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0726/172750.963:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir60656_18901\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0726/194818.205:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir67912_20071\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0803/143543.606:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir27948_4400\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0804/134729.427:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir8152_6593\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0822/120953.729:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir27364_19387\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0903/144308.440:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir87032_16107\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0903/222313.588:ERROR:file_io_win.cc(182)] CreateFile C:\Users\webonise\AppData\Local\Temp\scoped_dir98772_25315\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
